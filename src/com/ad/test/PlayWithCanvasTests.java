@@ -96,6 +96,10 @@ public class PlayWithCanvasTests {
 		Point point = canvas.getLocation();
 		System.out.println(" X - cordinate : " + point.getX());
 		System.out.println(" Y - cordinate : " + point.getY());
+		System.out.println(" Y - cordinate : " + point.getY());
+		System.out.println(" Y - cordinate : " + point.getY());
+		System.out.println(" Y - cordinate : " + point.getY());
+		
 		Dimension point1 = canvas.getSize();
 		System.out.println("Width of the canvas : " + point1.width);
 		action.moveToElement(canvas).build().perform();
